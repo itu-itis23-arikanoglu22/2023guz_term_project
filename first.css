@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: beige;
+    color: #333;
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro{
+    width: 500px;
+    font-size:15px;
+    margin-top: 0px;
+}
+.interests{
+    width: 500px;
+}
+
+.navdiv {
+    background-color: beige;
+    overflow: hidden;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.nav a {
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    border: 1px solid #fff; 
+    border-radius: 10px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 35%; 
+}
+.aboutMe img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.card {
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.card {
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    /* Add other styling properties as needed */
+}
